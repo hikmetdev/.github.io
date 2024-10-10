@@ -1,28 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Hikmet Alanlı</title>
+    
+    <!-- Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
+            font-family: 'Poppins', sans-serif;
             text-align: center;
+            background-color: #f7f9fc; /* Kullanıcı dostu açık arka plan rengi */
+            color: #333; /* Okunaklı koyu gri metin rengi */
+            padding: 50px;
         }
         h1 {
-            color: #333;
+            color: #2c3e50; /* Daha koyu, sofistike başlık rengi */
+            font-size: 48px;
+            margin-bottom: 20px;
         }
         p {
             font-size: 18px;
-            color: #666;
+            color: #34495e; /* Başlık ile uyumlu metin rengi */
+        }
+        .social-icons {
+            margin-top: 30px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+            padding: 12px 20px;
+            border-radius: 30px; /* Düğmelere yuvarlak köşeler */
+            display: inline-block;
+            font-weight: 700;
+        }
+        /* Sosyal medya butonları renkleri */
+        .social-icons a.facebook {
+            background-color: #3b5998; /* Facebook mavi */
+            color: white;
+        }
+        .social-icons a.twitter {
+            background-color: #1da1f2; /* Twitter mavi */
+            color: white;
+        }
+        .social-icons a.instagram {
+            background-color: #e4405f; /* Instagram pembe */
+            color: white;
+        }
+        .social-icons a.linkedin {
+            background-color: #0077b5; /* LinkedIn mavi */
+            color: white;
+        }
+        /* Hover efektleri */
+        .social-icons a:hover {
+            opacity: 0.85;
+            transform: scale(1.05); /* Hafif büyütme efekti */
+            transition: all 0.3s ease;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This site is hosted on GitHub Pages!</p>
+    <h1>Merhaba, ben Hikmet Alanlı</h1>
+    <p>Beni sosyal medyada takip edin:</p>
+    
+    <div class="social-icons">
+        <a href="https://www.facebook.com" class="facebook" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" class="twitter" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" class="instagram" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com" class="linkedin" target="_blank">LinkedIn</a>
+    </div>
 </body>
 </html>
